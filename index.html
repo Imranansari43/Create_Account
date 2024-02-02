@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+
+        </div>
+        <div class="main">
+            <div class="detail">
+                <div class="mdetail">
+                    <h1>Sample heading</h1>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="acform">
+                <div class="mform">
+                    <h2>Create an account</h2>
+                <div class="email">
+                <label for="email"><h4>Enter your email</h4></label>
+                <input type="email" id="email" required>
+                <p id="emailmessage"></p>
+                </div>
+
+                <div class="dob">
+                <label for="dob"><h4>Date of birth</h4><p>(Optional)</p></label>
+                <input type="date" id="dob">
+                <p id="dobmessage"></p>
+                </div>
+
+                <div class="password">
+                <label for="password"><h4>Choose a strong password</h4></label>
+                <input type="password" id="password" required>
+                <p id="message">Your password is <span id="strength"></span></p>
+                </div>
+                
+                <div class="type">
+                    <label for="type"><h4>Are you an agency or individual?</h4></label>
+                    <div class="choose">
+                        <div class="individual">
+                            <input type="radio"  value="individual" id="individual" name="type">
+                            <label for="individual"><p>Individual</p></label>
+                        </div>
+                        
+                        <div class="agency">
+                            <input type="radio" value="agency" id="agency" name="type">
+                            <label for="agency"><p>Agency</p></label>
+                        </div>
+                    </div>
+                    <p id="choose"></p>
+                </div>
+                <input type="submit" value="Submit" id="submit">
+                
+                </div>
+                <div class="newcircle">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
